@@ -3,13 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { BrowserRouter, RouterProvider } from 'react-router-dom';
+import routers from './routers/routers';
+import { ChakraProvider } from '@chakra-ui/react';
+import { Provider } from 'react-redux';
+import rootStore from './redux/root-store';
+// import routers from './routers/routers';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <ChakraProvider>
+      <Provider store={rootStore}>
+        <RouterProvider router={routers} />
+        {/* <App /> */}
+      </Provider>
+    </ChakraProvider>
   </React.StrictMode>
 );
 

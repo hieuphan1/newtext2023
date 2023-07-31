@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,10 +15,37 @@
     "@types/node": "^16.18.38",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
+    "@types/react-router-dom": "^5.3.3",
+    "alertifyjs": "^1.13.1",
+    "axios": "^1.4.0",
+    "chakra-react-select": "^4.6.0",
+    "faker": "^6.6.6",
+    "framer-motion": "^10.13.1",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
+    "match-sorter": "^6.3.1",
+    "moment": "^2.29.4",
+    "normalizr": "^3.6.2",
     "react": "^18.2.0",
+    "react-datepicker": "^4.16.0",
     "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-icons": "^4.10.1",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
+    "redux": "^4.2.1",
+    "redux-thunk-kit": "^1.0.6",
+    "ry-error-wrapper": "^0.0.4",
+    "sass": "^1.63.6",
+    "sort-by": "^1.2.0",
+    "sweetalert2": "^11.7.12",
+    "sweetalert2-react-content": "^5.0.7",
+    "use-auth": "^0.1.2",
+    "use-history": "^1.4.1",
+    "use-local-storage": "^3.0.0",
+    "validate.js": "^0.13.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,5 +71,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@types/lodash": "^4.14.195",
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/react-datepicker": "^4.11.2",
+    "typescript": "^5.1.6"
   }
 }
