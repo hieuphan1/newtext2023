@@ -20,12 +20,15 @@ const UserTable = () => {
             <Flex>
                 {
                     data.data.map((value: UserEntity) => {
-                        return <Text>hi</Text>
+                        return (
+                            <Flex>
+                                <Text>{value.id}</Text>
+                                <Text>hi</Text>
+                            </Flex>
+                        )
                     })
                 }
             </Flex>
-
-
         </Flex>
     );
 }

@@ -30,7 +30,7 @@ const CpnStepper = ({ data }: Props) => {
                 {data.map((item, index) => {
                     return (
                         <Flex alignItems='center' justifyItems='center' flex={1}>
-                            <Flex marginRight={2} justifyContent='center' alignItems='center' borderRadius='50%' width={10} border='2px' borderColor='gray.300' height={10} bg={click ? 'blue.300' : ''}>{click ? <CheckIcon /> : index + 1}</Flex>
+                            <Flex marginRight={2} justifyContent='center' alignItems='center' borderRadius='50%' width={10} border='2px' borderColor='gray.300' height={10} bg={click ? 'blue.300' : ''}>{click ? <CheckIcon /> : index}</Flex>
                             <Flex marginRight={2} fontSize='17px' direction='column'>
                                 <h3>{item.title}</h3>
                                 <p>{item.description}</p>
